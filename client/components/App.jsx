@@ -9,7 +9,8 @@ const App = () => {
   return (
     <React.Fragment>
     <Header />
-    <Element beers={beerData} />
+    {beerData.
+
     </React.Fragment>
   )
 }

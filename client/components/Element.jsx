@@ -1,22 +1,21 @@
 import React from 'react'
 
-class Element extends React.Component {
-  constructor(props) {
-    super(props)
 
-    this.state = {
-      style: {
-        width: '50px',
-        height: '50px',
-        backgroundColor: 'green'
-      }
-    }
+function Element (props) {
+  const elementStyle = {
+    width: '50px',
+    height: '50px',
+    backgroundColor: props.element.color 
   }
-  render() {
-    return (
-      <div style={this.state.style}></div>
-    )
-  }
+  return (
+    <div style={elementStyle}>
+      <div>
+        {props.element.name}
+      </div>
+    
+    </div>
+  )
 }
+
 
 export default Element

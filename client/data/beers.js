@@ -1,26 +1,32 @@
-const Beers = [ 
+const beers = [ 
 {
   number: 1,
-  Name: 'Berliner Weiss',
-  ABV: 2.5-3.6
+  name: 'Berliner Weiss',
+  abv: 2.5-3.6,
+  color: 'Brown'
 
 },
 {
   number: 2,
-  Name: 'Lambic',
-  ABV: 4.7-6.4
+  name: 'Lambic',
+  abv: 4.7-6.4,
+  color: 'yellow'
 
 },
 {
   number: 3,
-  Name: 'Belgian Gold',
-  ABV: 7.0-9.0
+  name: 'Belgian Gold',
+  abv: 7.0-9.0,
+  color: 'amber'
 
 },
 {
   number: 4,
-  Name: 'Belgian White',
-  ABV: 4.5-5.5
+  name: 'Belgian White',
+  abv: 4.5-5.5,
+  color: 'orange'
 }
 
 ]
+
+export default beers
