@@ -2,18 +2,18 @@ import React from 'react'
 
 
 function Element (props) {
-  const elementStyle = {
-    width: '50px',
-    height: '50px',
-    backgroundColor: props.element.color 
-  }
-  return (
-    <div style={elementStyle}>
-      <div>
-        {props.element.name}
-      </div>
-    
+  console.log(props)
+    return (
+    <div>
+    <div className="element">
+      <p>{props.number}</p>
+      <p>{props.beerColor}</p>
+      <p>{props.beerStyle}</p>
+      <p>{props.symbol}</p>
     </div>
+    </div>
+    
+    
   )
 }
 

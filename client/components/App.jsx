@@ -2,17 +2,27 @@ import React from 'react'
 import Header from './Header'
 import Element from './Element'
 
-import beerData from '../data/beers'
+import beersData from '..data/beersData'
+
+
 
 const App = () => {
-  console.log(beerData)
-  return (
+
+  
+    
+    const beerComponents = beersData.map((beers => <Element number={beers.number} beerColor={beers.beerColor} beerStyle={beers.beerStyle} symbol={beers.symbol} />)
+      )
+
+  
+
+
+return (
     <React.Fragment>
     <Header />
-    {beerData.
-
+    {beerComponents}
     </React.Fragment>
   )
 }
 
 export default App
+

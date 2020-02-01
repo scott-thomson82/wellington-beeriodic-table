@@ -1,6 +1,4 @@
 body {
-  
-  /* background-image: url('images/beer-background.jpg'); */
   background-size: cover;
   
 }
@@ -26,4 +24,12 @@ header {
   font-size: 20px;
   text-align: center;
   
+}
+
+.element {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  font-size: 10px;
+
 }
